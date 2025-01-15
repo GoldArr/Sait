@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Подвал</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .wrapper {
+            min-height: 100%;
+            /* Равно высоте подвала, */
+            /* но с учётом margin-bottom у последнего дочернего элемента */
+            margin-bottom: -50px;
+        }
+
+        .footer,
+        .push {
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        Содержимое
+        <div class="push">Зутшы</div>
+    </div>
+    <footer class="footer">Подвал</footer>
+</body>
+
+</html>

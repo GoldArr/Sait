@@ -4,19 +4,46 @@
     font-style: normal;
 }
 
-ul.hr {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
-    text-align: center; /* Расположение в центре */
-   }
-   ul.hr li {
-    display: inline; /* Отображать как строчный элемент */
-    padding: 3px; /* Поля вокруг текста */
-   }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 8%;
+}
 
-   a.text:active, /* активная/посещенная ссылка */
-a.text:hover,  /* при наведении */
+ul.hr {
+    margin: 0;
+    /* Обнуляем значение отступов */
+    padding: 4px;
+    /* Значение полей */
+    text-align: center;
+    /* Расположение в центре */
+}
+
+ul.hr li {
+    display: inline;
+    /* Отображать как строчный элемент */
+    padding: 3px;
+    /* Поля вокруг текста */
+}
+.text {
+    position: relative;
+    margin: auto;
+    top: 15%;
+    height: 200px;
+    width: 75%;
+}
+
+
+a.text:active,
+/* активная/посещенная ссылка */
+a.text:hover,
+/* при наведении */
 a.text {
-  text-decoration: none;
-  color: #585858;
+    text-decoration: none;
+    color: #585858;
 }
